@@ -489,7 +489,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-style{
 	font-family:"Raleway-ExtraBold";
-	font-size:40px;
+	font-size:20px;
+	width:100%;
 }
 .text-span-color{
 	color:#ffffff;
@@ -506,8 +507,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
-.bgc-red{
-	background-color:#FF0000;
+.bgc-azure{
+	background-color:#007FFF;
 }
 .bgc-dark-jungle-green{
 	background-color:#292929;

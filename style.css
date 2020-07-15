@@ -397,6 +397,16 @@ button{
 }
 
 
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.blockquote{
+	padding:0 20px;
+	border-left:2px solid;
+}
+.blockquote.text-right{
+	border-left:0;
+	border-right:2px solid;
+}
 
 
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
@@ -477,9 +487,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .mouse:hover{
 	background-image:url("img/Foto_profilo.jpg?timestamp=1594401139395");
 }
-.img-style{
-	border-radius:0px 0px 0px 0px;
-}
 .img-eyscenarioa--style{
 	height:133px;
 	width:237px;
@@ -500,6 +507,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-bloc-123-style{
 	width:596px;
+}
+.row-style{
+	width:100%;
+}
+.img-style{
+	width:318px;
+}
+.img-thumb-digitalo-style{
+	width:317px;
+}
+.linkazzo{
+	font-weight:bold;
 }
 
 /* = Colour
@@ -677,6 +696,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-kaekogunner-Converted{
 	background-image:url("img/kaekogunner_Converted.jpg");
+}
+.bg-Screenshot-202019-12-21-20at-2004-11-13{
+	background-image:url("img/Screenshot%202019-12-21%20at%2004.11.13.jpg");
+}
+.bg-Screenshot-202019-12-23-20at-2020-30-01{
+	background-image:url("img/Screenshot%202019-12-23%20at%2020.30.01.jpg");
 }
 
 

@@ -1,3 +1,4 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -binary
 *.png filter=lfs diff=lfs merge=lfs -binary
 *.psd filter=lfs diff=lfs merge=lfs -binary
+*.png binary

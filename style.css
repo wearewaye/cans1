@@ -24,14 +24,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'Raleway-ExtraBold';
-	src: url('./fonts/Raleway-ExtraBold/Raleway-ExtraBold.ttf');
-	src: url('./fonts/Raleway-ExtraBold/Raleway-ExtraBold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family:'NeueHaasUnicaW1G-Bold';
 	src: url('./fonts/NeueHaasUnicaW1G-Bold/NeueHaasUnicaW1G-Bold.ttf');
 	src: url('./fonts/NeueHaasUnicaW1G-Bold/NeueHaasUnicaW1G-Bold.ttf') format('truetype');
@@ -520,35 +512,38 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .linkazzo{
 	font-weight:bold;
 }
+.ohh{
+	font-weight:bold;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 /* Background colour styles */
 
-.bgc-azure{
-	background-color:#007FFF;
-}
 .bgc-dark-jungle-green{
 	background-color:#292929;
+}
+.bgc-white{
+	background-color:#FFFFFF;
 }
 .bgc-black{
 	background-color:#000000;
 }
-.bgc-white{
+.bgc-white-2{
 	background-color:#FFFFFF;
 }
 
 /* Text colour styles */
 
-.tc-white{
-	color:#FFFFFF!important;
-}
 .tc-dark-jungle-green{
 	color:#292929!important;
 }
 .tc-black{
 	color:#000000!important;
+}
+.tc-white{
+	color:#FFFFFF!important;
 }
 .tc-white-2{
 	color:#FFFFFF!important;
@@ -576,6 +571,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-black:hover{
 	color:#000000!important;
+}
+.ltc-white{
+	color:#FFFFFF!important;
+}
+.ltc-white:hover{
+	color:#cccccc!important;
 }
 
 /* Bloc image backgrounds */
@@ -702,6 +703,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-Screenshot-202019-12-23-20at-2020-30-01{
 	background-image:url("img/Screenshot%202019-12-23%20at%2020.30.01.jpg");
+}
+.bg-preview-20Showreel{
+	background-image:url("img/preview%20Showreel.jpg");
 }
 
 

@@ -540,6 +540,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-style{
 	width:39.69%;
 	font-size:14px;
+	color:#FEFFFE!important;
 }
 .mouse:hover{
 	background-image:url("img/Foto_profilo.jpg?timestamp=1594401139395");
@@ -611,6 +612,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#FEC703!important;
 }
 .btn-style:hover{
+	color:#FEC703!important;
+}
+.fatlink:hover{
+	color:#FEC703!important;
+}
+.buttonblack{
+	color:#292929!important;
+}
+.buttonblack:hover{
 	color:#FEC703!important;
 }
 

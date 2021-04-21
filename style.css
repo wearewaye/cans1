@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	Cans1-black
+	cans1-websitefordummies
 	About: A shiney new Blocs website.
 	Author: Cans1
 	Version: 1.0
@@ -147,42 +147,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
 	width:100%;
-}
-
-
-/* Edge Dividers */
-
-.bloc-shape-divider{
-	position: absolute;
-	width:100%;
-	text-align:center;
-	left:0;
-	right:0;
-	z-index: 0;
-	display: flex;
-	pointer-events: none;
-}
-.svg-divider{
-	width:100%;
-	height:100px;
-	fill:#000000;
-}
-.bloc-divider-top{
-	top:-1px;
-	align-items: flex-start;
-}
-.bloc-divider-bottom{
-	bottom:-1px;
-	align-items: flex-end;
-}
-.bloc-divider-flip-x svg{
-	transform:scale(-1,1);
-}
-.bloc-divider-flip-y svg{
-	transform:scale(1,-1);
-}
-.bloc-divider-flip-x.bloc-divider-flip-y svg{
-	transform:scale(-1,-1);
 }
 
 
@@ -391,6 +355,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -440,6 +408,25 @@ button{
 .icon-md{
 	font-size:30px!important;
 }
+.icon-lg{
+	font-size:60px!important;
+}
+.icon-round{
+	margin:0 auto;
+	border:2px solid transparent;
+	border-radius: 50%;
+	padding: 32px 30px 26px 30px;
+	min-width:80px;
+}
+.icon-round.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
+	min-width: 92px;
+}
+.icon-round.icon-lg,.icon-square.icon-lg,.icon-rounded.icon-lg{
+	min-width: 122px;
+}
+.icon-round.icon-xl,.icon-square.icon-xl,.icon-rounded.icon-xl{
+	min-width: 162px;
+}
 
 
 /* = Text & Icon Styles
@@ -468,6 +455,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 
 .carousel-nav-icon{
@@ -499,9 +493,11 @@ button{
 	opacity:0;
 	z-index:999;
 	transition: all .3s ease-in-out;
+	pointer-events:none;
 }
 .showScrollTop{
 	opacity: 1;
+	pointer-events:all;
 }
 .scroll-to-top-btn-icon{
 	fill: none;
@@ -594,6 +590,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:445px;
 	border-radius:0px 0px 0px 0px;
 }
+.linko{
+	font-weight:bold;
+	color:#FEC703!important;
+}
+.fatlink{
+	font-weight:bold;
+	color:#FEC703!important;
+}
+.container-div-style{
+	height:191px;
+}
+.img-untitled-style{
+	width:193px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -602,6 +612,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-black{
 	background-color:#000000;
+}
+.bgc-white{
+	background-color:#FFFFFF;
 }
 
 /* Text colour styles */
@@ -612,9 +625,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-white-2{
 	color:#FFFFFF!important;
 }
+.tc-white-3{
+	color:#FFFFFF!important;
+}
 
 /* Button colour styles */
 
+.btn-tangerine-yellow{
+	background:#FEC703;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-tangerine-yellow:hover{
+	background:#cb9f02!important;
+	color:rgba(0,0,0,.5)!important;
+}
 .wire-btn-white{
 	color:#FFFFFF!important;
 	border-color:#FFFFFF!important;
@@ -641,6 +665,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-white:hover{
 	color:#cccccc!important;
+}
+.ltc-tangerine-yellow-2{
+	color:#FEC703!important;
+}
+.ltc-tangerine-yellow-2:hover{
+	color:#cb9f02!important;
+}
+
+/* Icon colour styles */
+
+.icon-tangerine-yellow{
+	color:#FEC703!important;
+	border-color:#FEC703!important;
 }
 
 /* Bloc image backgrounds */
@@ -779,6 +816,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-diners{
 	background-image:url("img/diners.png");
+}
+.bg-jay{
+	background-image:url("img/jay.jpg");
 }
 
 

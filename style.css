@@ -532,6 +532,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:58.69%;
 	font-family:"NeueHaasUnicaW1G-Bold";
 	font-size:45px;
+	color:#FEFFFD!important;
 }
 .h1-color{
 	color:#ffffff;
@@ -632,6 +633,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .buttonblack:visited{
 	color:#292929!important;
 }
+.btn-style:active{
+	color:#FEC703!important;
+}
+.btn-style:focus{
+	color:#FEC703!important;
+}
+.btn-style:visited{
+	color:#FEFFFE!important;
+}
+.footer-link:hover{
+	color:#FEC703!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -687,12 +700,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-tangerine-yellow:hover{
 	color:#cb9f02!important;
-}
-.ltc-white{
-	color:#FFFFFF!important;
-}
-.ltc-white:hover{
-	color:#cccccc!important;
 }
 .ltc-tangerine-yellow-2{
 	color:#FEC703!important;

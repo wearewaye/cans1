@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	cans1-websitefordummies
+	Giacomo Jay Ganduglia - cans1
 	About: A shiney new Blocs website.
 	Author: Cans1
 	Version: 1.0
@@ -622,6 +622,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .buttonblack:hover{
 	color:#FEC703!important;
+}
+.buttonblack:active{
+	color:#FEC703!important;
+}
+.buttonblack:focus{
+	color:#FEC703!important;
+}
+.buttonblack:visited{
+	color:#292929!important;
 }
 
 /* = Colour

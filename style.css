@@ -604,6 +604,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-untitled-style{
 	width:193px;
 }
+.button:hover{
+	color:#FEC703!important;
+}
+.yellow:hover{
+	color:#FEC703!important;
+}
+.btn-style:hover{
+	color:#FEC703!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
